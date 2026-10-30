@@ -1,0 +1,14 @@
+{
+  "name": "media-citation-notes",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/citation_collect_media.ts",
+    "test": "node --experimental-strip-types src/citation_collect_media.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.0.0"
+  }
+}

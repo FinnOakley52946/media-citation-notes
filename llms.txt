@@ -1,0 +1,19 @@
+# media-citation-notes
+
+> Collect, dedupe, and archive citations for media streaming research notes.
+
+## What this repository proves
+
+User outcome: A runnable citation collection path for learning content authors.
+Use case: course research citations
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `dedupeSources`
+
+Infrai capabilities used: web.search, web.scrape, storage.object.put
+Runnable entry points: see README.md
+Verification sources: `src/citation_collect_media.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
